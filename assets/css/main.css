@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.nuxt-devtools-panel{
+    display: none;
+}
 .navbar-menu{
     @apply bg-[#991b1b] border-gray-200 dark:bg-gray-900 mb-8
 }
